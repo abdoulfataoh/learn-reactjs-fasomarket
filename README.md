@@ -3,6 +3,11 @@
 An E-commerce app to illustrate all react concepts
 
 
+## Docs
+
+- [Design](https://www.tldraw.com/p/Esi4mJ6woC-NDwq2ECzf3?d=v360.275.534.501.page)
+
+
 ## Features
 
 features 1
