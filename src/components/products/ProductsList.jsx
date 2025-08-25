@@ -34,7 +34,7 @@ export function ProductsList(){
 
     if (data){
         return(
-            <div className="grid grid-cols-1 md:grid-cols-4 xl:grid-cols-3 2xl:grid-cols-9  sm:gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-9  sm:gap-2">
 
                 { data.map(p => 
                         <ProductCard 
