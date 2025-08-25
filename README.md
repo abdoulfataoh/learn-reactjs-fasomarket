@@ -2,6 +2,8 @@
 
 An E-commerce app to illustrate all react concepts
 
+![](https://github.com/abdoulfataoh/learn-reactjs-fasomarket/blob/master/docs/capture.png)
+
 
 ## Docs
 
