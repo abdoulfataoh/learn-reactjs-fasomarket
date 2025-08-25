@@ -34,7 +34,7 @@ export function ProductsList(){
 
     if (data){
         return(
-            <div className="flex gap-2 justify-between flex-wrap">
+            <div className="grid grid-cols-1 md:grid-cols-4 xl:grid-cols-3 2xl:grid-cols-9  sm:gap-2">
 
                 { data.map(p => 
                         <ProductCard 
@@ -42,6 +42,8 @@ export function ProductsList(){
                             currency="XOF"
                             price={p.price}
                             imgurl={p.image}
+                            sale={p.prize} // simulation de promo
+                            className="max-w-xs"
                         />
                     )
                 }
