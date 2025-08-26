@@ -1,6 +1,6 @@
 ## FAso Market
 
-An E-commerce app to illustrate all react concepts
+An e-commerce app showcasing key React concepts.
 
 ![](https://github.com/abdoulfataoh/learn-reactjs-fasomarket/blob/master/docs/capture.png)
 
