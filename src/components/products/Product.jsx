@@ -1,10 +1,12 @@
+import {Link} from 'react-router-dom'
 import Like from "../Like"
+
 
 
 export default function ProductCard(props){
 
     return(
-        <div className={`p-2 border rounded-md bg-white flex flex-col ${props.className}`}>
+        <div className={`p-2 rounded-md bg-white flex flex-col ${props.className}`}>
             <div className="flex justify-between mb-4">
                 <Like />
                 {props.price <= 60 && // Simulation promo pour activer certains badges
@@ -21,11 +23,16 @@ export default function ProductCard(props){
             <div className="mt-auto flex flex-col gap-4">
 
                 <div className="mt-6 w-10/12 text-justify font-bold text-green-700">
-                    {props.title}
+                    <Link to={`/products/${props.id}`}>
+                        {props.title}
+                    </Link>
                 </div>
 
                 <div className="text-gray-700 text-xl font-bold">
-                    {props.price} {props.currency}
+                    <span className="bg-yellow-300 p-2 rounded-bl-xl rounded-tr-xl shadow-xl">
+                        {props.price} {props.currency}
+
+                    </span>
                 </div>
 
                 <div>

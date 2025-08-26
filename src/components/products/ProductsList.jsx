@@ -37,13 +37,15 @@ export function ProductsList(){
             <div className="grid grid-cols-1 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-9  sm:gap-2">
 
                 { data.map(p => 
-                        <ProductCard 
+                        <ProductCard
+                            key={p.id}
+                            id={p.id}
                             title={p.title}
                             currency="XOF"
                             price={p.price}
                             imgurl={p.image}
                             sale={p.prize} // simulation de promo
-                            className="max-w-xs"
+                            className="max-w-xs shadow-2xl"
                         />
                     )
                 }

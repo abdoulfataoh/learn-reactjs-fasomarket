@@ -1,11 +1,10 @@
 import { ProductsList } from "../components/products/ProductsList"
 
-export default function CartPage(){
+export default function PayPage(){
 
     return (
         <>
-            Page pour le panier
-            
+            Page pour les paiements
         </>
     )
 }

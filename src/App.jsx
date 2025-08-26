@@ -1,13 +1,13 @@
 import './App.css'
-import MainLayout from './layouts/MainLayout'
+import { RouterProvider } from 'react-router-dom'
+import router from './routes'
+
 
 function App() {
 
   return (
     <>
-
-      <MainLayout />
-      
+      <RouterProvider router={router} />
     </>
   )
 }

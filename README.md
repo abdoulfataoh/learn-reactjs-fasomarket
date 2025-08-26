@@ -12,6 +12,7 @@ An e-commerce app showcasing key React concepts.
 
 ## Project tree
 
+
 ```
 learn-reactjs-fasomarket
 ├─ README.md
@@ -29,6 +30,7 @@ learn-reactjs-fasomarket
 │  ├─ components
 │  │  ├─ Footer.jsx
 │  │  ├─ Header.jsx
+│  │  ├─ InfoCarousel.jsx
 │  │  ├─ Like.jsx
 │  │  ├─ cart
 │  │  │  └─ CardList.jsx
@@ -36,13 +38,17 @@ learn-reactjs-fasomarket
 │  │     ├─ Product.jsx
 │  │     └─ ProductsList.jsx
 │  ├─ layouts
+│  │  ├─ AuthLayout.jsx
 │  │  └─ MainLayout.jsx
 │  ├─ main.jsx
-│  └─ pages
-│     ├─ CartPage.jsx
-│     └─ ProductsPage.jsx
+│  ├─ pages
+│  │  ├─ CartPage.jsx
+│  │  ├─ LoginPage.jsx
+│  │  ├─ PayPage.jsx
+│  │  ├─ ProductDetail.jsx
+│  │  └─ ProductsPage.jsx
+│  └─ routes.jsx
 └─ vite.config.js
-
 ```
 
 ## Features
@@ -69,7 +75,6 @@ npm install
 ```bash
 npm run dev
 ```
-
 
 
 
