@@ -2,7 +2,7 @@
 
 An e-commerce app showcasing key React concepts.
 
-![](https://github.com/abdoulfataoh/learn-reactjs-fasomarket/blob/master/docs/capture.png)
+![](https://github.com/abdoulfataoh/learn-reactjs-fasomarket/blob/master/docs/all-devices-black.png)
 
 
 ## Docs

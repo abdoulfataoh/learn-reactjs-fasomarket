@@ -9,8 +9,8 @@ import { Outlet } from "react-router-dom"
 export default function MainLayout(props){
 
     return(
-        <div className="border-4">
-            <header className="h-24 mb-4 px-6 py-2">
+        <div className="">
+            <header className="sticky top-0 z-100 h-24 mb-4 px-6 py-2">
                 <Header />
             </header>
             <main className="min-h-screen px-6">
