@@ -10,6 +10,7 @@ import StoreManangementLayout from './layouts/StoreManangementLayout'
 import ProductsManagementPage from './pages/ProductsManagementPage'
 import ClientsManagementPage from './pages/ClientsManagementPage'
 import Error404 from './pages/Error404'
+import ProtectedRoute from './components/auth/ProtectedRoute'
 
 const router = createBrowserRouter([
 
@@ -33,9 +34,10 @@ const router = createBrowserRouter([
 
     {
         element: <StoreManangementLayout />,
+        path: '/admin',
         children: [
-            {path: '/admin/products', element: <ProductsManagementPage />},
-            {path: '/admin/clients', element: <ClientsManagementPage />},
+            {path: 'products', element:<ProtectedRoute><ProductsManagementPage /></ProtectedRoute>},
+            {path: 'clients', element: <ProtectedRoute><ClientsManagementPage /></ProtectedRoute>},
         ]
     },
 
@@ -43,8 +45,6 @@ const router = createBrowserRouter([
         path: '*',
         element: <Error404 />
     }
-
-
 
 ])
 
