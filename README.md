@@ -7,7 +7,11 @@ An e-commerce app showcasing key React concepts.
 
 ## Docs
 
-[Architecture Design](https://www.tldraw.com/p/Esi4mJ6woC-NDwq2ECzf3?d=v360.275.534.501.page)
+[Arch](https://www.tldraw.com/p/Esi4mJ6woC-NDwq2ECzf3?d=v360.275.534.501.page)
+
+![](https://github.com/abdoulfataoh/learn-reactjs-fasomarket/blob/master/docs/arch.png)
+
+
 
 
 ## Project tree
